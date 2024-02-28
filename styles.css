@@ -56,15 +56,15 @@ h2 {
 }
 #headshot {
   border: white 5px solid;
+  align-self: flex-end;
 }
-@media (min-width: 769px) {
+@media (min-width: 651px) {
   #headshot {
     width: 300px;
-    height: auto;
     margin-left: 10px;
   }
 }
-@media (max-width: 769px) {
+@media (max-width: 650px) {
   .management {
     flex-direction: column;
   }
