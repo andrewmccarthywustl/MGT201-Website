@@ -2,10 +2,10 @@
   font-family: "Playfair Display", serif;
   color: white;
 }
-.sub-head{
-  color: #112D4E;
+.sub-head {
+  color: #112d4e;
   font-family: "Playfair Display", serif;
-  font-weight:800;
+  font-weight: 800;
   font-size: 2rem;
 }
 body {
@@ -17,8 +17,8 @@ p {
 }
 h2 {
   font-size: 17pt;
-  color: #3F72AF;
-  font-family: Poppins, sans-serif
+  color: #3f72af;
+  font-family: Poppins, sans-serif;
 }
 .name-hero {
   background-image: url(./assets/background-hero.png);
@@ -47,28 +47,28 @@ h2 {
   display: flex;
   flex-direction: column;
 }
-.resume{
+.resume {
   width: 100%;
 }
-.central{
+.central {
   display: flex;
   justify-content: center;
 }
-#headshot{
+#headshot {
   border: white 5px solid;
 }
 @media (min-width: 769px) {
-  #headshot{
+  #headshot {
     width: 300px;
     height: auto;
     margin-left: 10px;
   }
 }
 @media (max-width: 769px) {
-  .management{
+  .management {
     flex-direction: column;
   }
-  #headshot{
+  #headshot {
     width: 300px;
   }
 }
